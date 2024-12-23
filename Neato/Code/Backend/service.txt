@@ -1,0 +1,72 @@
+INSERT INTO services (service_name, description, price, time_required, date_created, category) VALUES
+-- Cleaning Services
+('General Home Cleaning', 'Thorough cleaning of your home, including dusting, mopping, and tidying.', 500, 120, DATETIME('now'), 'Cleaning'),
+('Deep Cleaning', 'Comprehensive cleaning of the entire home, covering all hidden areas.', 800, 180, DATETIME('now'), 'Cleaning'),
+('Kitchen Cleaning', 'Specialized cleaning for kitchen surfaces, appliances, and floors.', 600, 90, DATETIME('now'), 'Cleaning'),
+('Bathroom Cleaning', 'Complete cleaning and sanitization of bathrooms, including tiles and fixtures.', 400, 60, DATETIME('now'), 'Cleaning'),
+('Sofa and Carpet Cleaning', 'Professional cleaning of sofas, carpets, and upholstery to remove stains and dust.', 700, 150, DATETIME('now'), 'Cleaning'),
+('Window and Glass Cleaning', 'Streak-free cleaning of windows and glass surfaces.', 300, 60, DATETIME('now'), 'Cleaning'),
+
+-- Electrical Services
+('Electrical Repairs', 'Repair of electrical systems and components in your home.', 400, 90, DATETIME('now'), 'Electrical'),
+('Fan Installation and Repairs', 'Installation or repair of ceiling and wall fans.', 300, 60, DATETIME('now'), 'Electrical'),
+('Light and Socket Fitting', 'Installation or repair of light fixtures and sockets.', 250, 60, DATETIME('now'), 'Electrical'),
+('Wiring and Electrical Panel Work', 'Complete wiring and panel installation or repair for your home.', 1200, 240, DATETIME('now'), 'Electrical'),
+('Appliance Installation', 'Installation of home appliances such as water heaters and fans.', 500, 90, DATETIME('now'), 'Electrical'),
+
+-- Plumbing Services
+('Leak Repairs', 'Fixing leaks in pipes, faucets, and water connections.', 200, 60, DATETIME('now'), 'Plumbing'),
+('Pipe Fitting and Replacement', 'Installation or replacement of water and gas pipes.', 500, 120, DATETIME('now'), 'Plumbing'),
+('Faucet and Sink Repair', 'Repair or replacement of faucets and sinks.', 300, 90, DATETIME('now'), 'Plumbing'),
+('Water Tank Cleaning', 'Thorough cleaning and sanitization of water tanks.', 700, 180, DATETIME('now'), 'Plumbing'),
+('Bathroom Fittings Installation', 'Installation of bathroom fittings such as showers and taps.', 800, 120, DATETIME('now'), 'Plumbing'),
+
+-- AC and Appliance Services
+('AC Installation and Servicing', 'Installation or maintenance of air conditioners.', 1200, 240, DATETIME('now'), 'Electronic Maintenance'),
+('Refrigerator Repair', 'Repair and maintenance of refrigerators.', 1000, 120, DATETIME('now'), 'Electronic Maintenance'),
+('Washing Machine Repair', 'Repair of washing machines for optimal functioning.', 800, 150, DATETIME('now'), 'Electronic Maintenance'),
+('Microwave Oven Repair', 'Repair services for microwave ovens.', 600, 90, DATETIME('now'), 'Electronic Maintenance'),
+('Water Purifier Installation and Servicing', 'Installation or servicing of water purifiers.', 700, 90, DATETIME('now'), 'Electronic Maintenance'),
+
+-- Carpentry Services
+('Furniture Repair', 'Repair and restoration of wooden furniture.', 800, 120, DATETIME('now'), 'Carpentry'),
+('Custom Furniture Building', 'Design and creation of custom furniture.', 3000, 300, DATETIME('now'), 'Carpentry'),
+('Door and Window Fitting', 'Installation of doors and windows.', 1200, 180, DATETIME('now'), 'Carpentry'),
+('Lock and Handle Repairs', 'Repair or replacement of locks and handles.', 400, 60, DATETIME('now'), 'Carpentry'),
+('Modular Kitchen Installations', 'Design and installation of modular kitchen setups.', 5000, 360, DATETIME('now'), 'Carpentry'),
+
+-- Painting Services
+('Wall Painting', 'Wall painting for a refreshed and vibrant look.', 1500, 240, DATETIME('now'), 'Painting'),
+('Textured Wall Designs', 'Specialized textured designs for walls.', 2500, 300, DATETIME('now'), 'Painting'),
+('Polishing and Wood Painting', 'Polishing and painting wooden surfaces.', 1200, 180, DATETIME('now'), 'Painting'),
+('Waterproofing Solutions', 'Waterproofing services for walls, floors, and ceilings.', 2000, 240, DATETIME('now'), 'Painting'),
+
+-- Pest Control Services
+('Termite Control', 'Effective termite control to protect wooden furniture and walls.', 1200, 180, DATETIME('now'), 'Pest Control'),
+('Cockroach Control', 'Cockroach elimination and prevention services.', 800, 120, DATETIME('now'), 'Pest Control'),
+('Mosquito Control', 'Mosquito control services for a mosquito-free environment.', 500, 90, DATETIME('now'), 'Pest Control'),
+('Bed Bug Control', 'Comprehensive bed bug treatment services.', 1000, 180, DATETIME('now'), 'Pest Control'),
+('Rodent Control', 'Rodent elimination and prevention solutions.', 700, 120, DATETIME('now'), 'Pest Control'),
+
+-- Home Renovation and Repair
+('Flooring and Tiling', 'Flooring and tiling services for home renovation.', 3000, 300, DATETIME('now'), 'Home Renovation'),
+('Bathroom Remodeling', 'Complete bathroom remodeling and renovation services.', 5000, 360, DATETIME('now'), 'Home Renovation'),
+('Waterproofing', 'Waterproofing services to prevent leakage and seepage.', 2500, 240, DATETIME('now'), 'Home Renovation'),
+('Masonry Work', 'Masonry services including wall construction and repairs.', 1500, 180, DATETIME('now'), 'Home Renovation'),
+
+-- Gardening and Landscaping
+('Lawn Mowing and Maintenance', 'Regular lawn care and maintenance services.', 600, 120, DATETIME('now'), 'Landscaping'),
+('Plant Installation', 'Installation of plants and trees in your garden.', 500, 90, DATETIME('now'), 'Landscaping'),
+('Garden Designing', 'Professional garden design and landscaping services.', 2500, 300, DATETIME('now'), 'Landscaping'),
+('Tree Trimming and Removal', 'Trimming or removal of trees for safety and aesthetics.', 1500, 180, DATETIME('now'), 'Landscaping'),
+
+-- Security and Surveillance
+('CCTV Installation', 'Installation of CCTV cameras for home security.', 4000, 240, DATETIME('now'), 'Security'),
+('Home Automation', 'Home automation services for convenience and security.', 5000, 300, DATETIME('now'), 'Security'),
+('Doorbell and Intercom Installation', 'Installation of doorbells and intercom systems.', 1000, 120, DATETIME('now'), 'Security'),
+
+-- Other Services
+('Handyman Services', 'General handyman services for minor home repairs.', 300, 60, DATETIME('now'), 'Other'),
+('Pack and Move Services', 'Packing and moving services for relocating homes.', 4000, 360, DATETIME('now'), 'Other'),
+('Home Sanitization Services', 'Sanitization services to disinfect your home.', 1200, 180, DATETIME('now'), 'Other'),
+('Curtain and Blind Installation', 'Installation of curtains and blinds for windows.', 500, 90, DATETIME('now'), 'Other');
