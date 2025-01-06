@@ -35,7 +35,7 @@ Ensure you have the following installed on your system:
 
 ```bash
 - git clone https://github.com/Ripu0902/Neato.git
-- cd household-services-app
+- cd Neato/Code
 
 Backend Setup
 - cd backend
